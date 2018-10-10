@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec-grapfik{
+    background-color: $default-color;  
+}
+.grapfik{
+    width: 1200px;
+    margin: auto;
+    // background-color: $default-color;   
+
+&__title{
+    padding-top: 100px;
+    font-family: $font-montserrat;
+    font-size: 40px;
+    text-align: center;
+    color: $default-color-dark; 
+}
+&__subtitle{
+    padding: 30px 0 97px;
+    width: 512px;
+    margin: auto;
+    font-family: $gont-nunito;    
+    font-size: 18px; 
+    font-weight: 300;
+    color: #b9b9b9; 
+    text-align: center;  
+}
+}
+.pfolio{
+    display: flex;
+    flex-wrap: wrap;
+    &__img{
+        position: relative;
+        list-style: none;
+        display: block;
+        height: 300px;
+        &__hov{
+            display: none;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            background-color: rgba(16, 201, 195, 0.5);
+            background-image: url(../img/pe-7s-look@1X.png);
+            background-repeat: no-repeat;
+            background-position:  center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+}
+}
+.pfolio__img:hover .pfolio__img__hov {
+    display: flex;
+ }
+}
