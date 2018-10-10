@@ -1,0 +1,13 @@
+@mixin text-decor ($size:$default-font-size, $color:$default-text-color, $align:center, $height:normal, $transform: none) {
+    font-size: $size;
+    color: $color;
+    text-align: $align;
+    line-height: $height;
+    text-transform: $transform;
+}
+
+@mixin block-options ($margin: 0 auto, $padding: 0, $width: auto) {
+    margin: $margin;
+    padding: $padding;
+    width: $width;
+}
