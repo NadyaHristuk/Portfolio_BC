@@ -4,6 +4,7 @@
 @import 'normalize';
 @import 'fonts';
 @import 'mixins';
+@import 'header';
 @import 'aboutus';
 
 * {
@@ -11,85 +12,4 @@
     padding: 0;
 }
 
-.list {
-    list-style: none;
-    display: flex;
-}
 
-.link {
-    text-decoration: none;
-}
-
-.navigation {
-    justify-content: space-between;
-    align-items: baseline;
-    @include block-options(20px auto 0, 30px 0 0 0, 1200px);
-    display: flex;
-    &__logo {
-        margin: 0;
-        &-link  {
-            @include text-decor(30px,#191919);
-            font-weight: 700px;
-        }
-    }
-}
-
-.navigation__item {
-    margin-left: 55px;
-    &:last-child {
-        margin-left: 40px;
-    }
-}
-
-.navigation__link {
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    color: #191919;
-    text-transform: uppercase;
-    font-weight: 700;
-    position: relative;
-    &:hover {
-        color: #56cfcb;
-    }
-    &:after{
-        content: '';
-        @include block-options(10px 0 0 0 ,1.5px 0, 100%);
-        display: block;
-        opacity: 0;
-        background-color: #56cfcb;
-        position: absolute;
-    }
-    &:hover::after {
-        opacity: 1;
-        transition: opacity 1s linear;
-    }
-}
-
-.introduction {
-    @include block-options(170px auto 0 (1200px - 485px), 0 0 170px 0, 485px);
-    &__title {
-        @include text-decor(38px, #191919, center, 0.95);
-        text-transform: capitalize;
-        font-family: 'Montserrat', sans-serif;
-
-    }
-    &__info {
-        @include text-decor(18px, #787878);
-        margin: 40px auto 0;
-        font-family: 'Montserrat', sans-serif;
-    }
-    &__btn {
-        @include block-options(40px 0 0 ,20px 45px);
-    display: block;
-    color: white;
-    border: none;
-    text-transform: uppercase;
-    background: #56cfcb;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
-        &:hover {
-            color: #191919;
-        }
-    }
-}
