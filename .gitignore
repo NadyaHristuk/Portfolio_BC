@@ -61,4 +61,7 @@ typings/
 .DS_Store
 .idea
 
+# Exclude any PSD/AI source
 *.psd
+*.ai
+
