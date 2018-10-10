@@ -1,0 +1,63 @@
+.aboutus, .profskills {
+    margin: 0 auto;
+
+    &__title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        color: rgba(25, 25, 25, 255);
+        text-align: center; 
+        margin: 100px 0 40px 0;
+    }
+    &__text {
+        width: 50%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: rgba(120, 120, 120, 255);
+        text-align: center; 
+        margin: 0 auto;
+    }
+    &__img {
+        display: block;
+        width: 223px;
+        height: 57px;
+        margin: 40px auto 100px;
+    }
+} 
+.profskills {
+    background-color: #f8f9f9; 
+    display: flex;
+    justify-content: space-between;
+
+        &__skills {
+            width: 50%;
+            padding-top: 164px 0 187px 0;
+            margin-left: 83px;
+
+            &--title {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 30px;
+                color: rgba(23, 23, 23, 255);  
+            }
+            &--text {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 12px;
+                text-transform: uppercase;
+                color: rgba(0, 0, 0, 255); 
+                margin: 40px 0 20px 0;
+            }  
+            &--line {
+                height: 3px;
+                width: 200px;
+                margin: 0;
+            }
+        }
+        &__img {
+            width: 50%;
+            height: auto;
+            margin: 0 auto;
+        }
+}   
