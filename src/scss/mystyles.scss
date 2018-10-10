@@ -1,0 +1,82 @@
+.maksym{
+   width: 100%;
+   margin: auto;
+    padding-bottom: 100px;
+}
+
+ .wr-about-me{
+        background-color: $default-color;   
+}
+
+.about-me{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+     
+    &__pct{
+        width: 600px;
+        height: 500px;
+    }
+
+    &__discription{
+        width: 600px;
+        padding: 60px 60px 0 100px;
+        
+        &--heading{
+            @extend %heading-style; 
+            font-family: $font-montserrat;
+            font-weight: $font-weight-500;
+            margin-top: 30px;
+        }
+
+        &--text{
+            @extend %text-style; 
+            font-family: $gont-nunito;
+            font-weight: $font-weight-400;
+            margin-top: 30px;
+        }
+
+        &--img{
+            width:225px;
+            height: 65px;
+            background-color:$default-color;
+            margin-top:20px;
+        }
+    }
+}
+.project-info{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:80px;
+     
+    &__request{
+        @extend %heading-style; 
+        font-family: $font-montserrat;
+        font-weight: $font-weight-500;
+        margin-top: 30px;
+    }
+    
+    &__text{
+        width: 600px;
+        @extend %text-style; 
+        text-align: center;
+        font-family: $gont-nunito;
+        font-weight: $font-weight-400;
+        margin-top: 30px;
+    }
+
+    &__btn{
+        background-color: $default-color-turquoise;
+        color:#ffffff;
+        padding: 15px 50px;
+        border:none;
+        text-transform: uppercase;
+        font-family: $gont-nunito;
+        font-weight: $font-weight-400;
+        margin-top: 30px;
+    }
+}
