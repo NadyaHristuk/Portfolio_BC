@@ -416,6 +416,11 @@ template {
   background-position: center;
 }
 
+.introduction-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .navigation {
   justify-content: space-between;
   align-items: baseline;
@@ -449,7 +454,7 @@ template {
 .navigation__link {
   font-size: 12px;
   font-family: 'Montserrat', sans-serif;
-  color: #191919;
+  color: white;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -476,14 +481,15 @@ template {
 }
 
 .introduction {
-  margin: 170px auto 0 715px;
-  padding: 0 0 170px 0;
+  margin: 150px 0 0 auto;
+  padding: 0 0 190px 0;
   width: 485px;
+  display: block;
 }
 
 .introduction__title {
   font-size: 38px;
-  color: #191919;
+  color: white;
   text-align: center;
   line-height: 0.95;
   text-transform: none;
@@ -493,7 +499,7 @@ template {
 
 .introduction__info {
   font-size: 18px;
-  color: #787878;
+  color: white;
   text-align: left;
   line-height: 2;
   text-transform: none;
@@ -517,4 +523,9 @@ template {
 
 .introduction__btn:hover {
   color: #191919;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
