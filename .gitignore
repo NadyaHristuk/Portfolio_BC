@@ -63,4 +63,4 @@ typings/
 
 # Exclude any PSD/AI source
 *.psd
-*.ai 
+*.ai

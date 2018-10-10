@@ -1,4 +1,20 @@
 
 @import 'normalize';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Nunito+Sans');
+@import 'variables';
 @import 'fonts';
+@import 'mixins';
+@import 'header';
+@import 'aboutus';
+@import 'formproject';
+@import 'breakfast';
+@import 'contact';
 @import 'foot-foot';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
