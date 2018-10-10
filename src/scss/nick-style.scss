@@ -1,0 +1,111 @@
+.foothead {
+  position: relative;
+  
+  &__header {
+  background-image: url(../img/foothead_bg_story.png);
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  padding: 150px 0;
+  }
+
+  &__menu__item {
+    position: absolute;
+    left: 100px;
+    top: 120px;
+  }
+
+  &__logo {
+  display: inline-block;
+  text-transform: capitalize;
+  color: white;
+  font-size: 69px;
+  padding: 42px 42px 28px;
+  background-color: #10c9c3;
+  margin: 0;
+  position: absolute;
+  left: 39%;
+  top: 0;
+  box-shadow: 0 20px 30px -10px grey;
+  }
+
+  &__title--left {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 100px;
+    color: grey;
+  }
+
+  &__main {
+    padding-left: 100px;
+    display: flex;
+    position: relative;
+  
+    &__article {
+      width: 450px;
+
+      &__title {
+        font-size: 36px;
+      }
+
+      &__text {
+        font-size: 24px;
+        color: grey;
+        width: 405px;
+      }
+
+      &__button {
+        border: none;
+        background-color: #10c9c3;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 14px;
+      }
+    }
+
+    &__hills {
+      width: 600px;
+      background-image: url(../img/foothead-hills.png);
+      border: 10px solid white;
+      margin-left: 180px;
+      background-size: cover;
+      box-shadow: 0 0 50px 3px rgba(209,202,209,1);
+    }
+
+    &__pink {
+      width: 300px;
+      height: 200px;
+      background-color: pink;
+      border: 10px solid white;
+      position: absolute;
+      box-shadow: 0 0 50px 3px rgba(209,202,209,1);
+      left: 40%;
+      top: 10%;
+    }
+  }
+
+  &__title--center {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    margin-top: 100px;
+  }
+  &__footer {
+    display: block;
+    width: 850px;
+    margin: 0 auto;
+
+    &__img {
+      box-shadow: 0 0 50px 3px rgba(209,202,209,1);
+      border: 10px solid white;
+    }
+
+    &__text {
+      color: grey;
+      width: 750px;
+      display: block;
+      margin: 30px auto 30px;
+      
+    }
+  }
+}
