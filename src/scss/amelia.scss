@@ -1,0 +1,112 @@
+$text-color:#f9dfdf;
+
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.amelia-about {
+background: url(../img/amelia_photo.jpeg);
+
+background-repeat: no-repeat;
+background-size: cover;
+
+    &__name {
+        text-align: center;
+        padding: 119px 0px 38px 0px;
+        color:$text-color;
+        margin:auto;
+        font-size: 38px;
+        font-family: $font-montserrat;
+
+    }
+
+    &__info {
+        width:512px;
+        padding-bottom: 130px;
+        margin:auto;
+        color:$text-color;
+        text-align:center;
+        font-size: 18px;
+        font-family:$gont-nunito;
+    }
+
+}
+
+.amelia-wrapper {
+    background-color:$default-color-turquoise;
+}
+.amelia-result {
+
+    width:1200px;
+    display: flex;
+    justify-content: space-between;
+    padding:101px 0px 100px;
+    margin:auto;
+    list-style: none;
+
+        &__item {
+            width:165px;
+            margin-left:68px;
+            position:relative;
+            color:$text-color;
+            text-transform: uppercase;
+            
+
+            &--value {
+                font-size: 18px;
+                font-family: $font-montserrat;
+                font-family:$gont-nunito;
+                
+            }
+                
+            &--descr {
+                font-size:12px;
+                font-family: $font-montserrat;
+                font-family:$gont-nunito;
+            }
+        }
+
+        &__item--bag::before {
+            background-image: url(../img/bag.png);
+            content:"";
+            width:40px;
+            height:36px;
+            left:-53px;
+            position:absolute;
+        }
+
+        
+        &__item--clock::before {
+            background-image: url(../img/clock.png);
+            content:"";
+            width:40px;
+            height:40px;
+            left:-53px;
+            position:absolute;
+        }
+
+        
+        &__item--star::before {
+            background-image: url(../img/star.png);
+            content:"";
+            width:44px;
+            height:41px;
+            left:-53px;
+            position:absolute;
+        }
+
+        
+        &__item--heart::before {
+            background-image: url(../img/heart.png);
+            content:"";
+            width:40px;
+            height:36px;
+            left:-53px;
+            position:absolute;
+        }
+
+}
