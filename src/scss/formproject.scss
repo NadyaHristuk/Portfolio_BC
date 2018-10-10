@@ -1,0 +1,98 @@
+.formproject{
+    margin: auto;
+    width:1366px;
+   
+}
+.quote{
+    text-align: center;
+    background: #10c9c3;
+    width:1366px;
+    
+    &__text{
+        width: 807px;
+        margin: auto;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 255);
+        padding-top: 178px;
+    }
+    &__auther{
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 255);
+        padding: 35px 0 109px 0;
+    }
+    &__img{
+        padding-bottom: 60px;
+    }
+}
+.gallery{
+    width: 1099px;
+    display: flex;
+    margin: 64px auto;
+    
+    justify-content: space-between;
+    &__item{
+        list-style: none;
+    }
+
+}
+.form{
+    width: 671px;
+    margin: auto;
+
+    &__title{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 36px;
+    color: rgba(29, 29, 29, 255);
+    text-align: center;
+    }
+
+    &__text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(120, 120, 120, 255);
+    text-align: center;
+    }
+    &-contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+        &__str{
+            width: 301px;
+            font-family: 'NunitoSans', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            color: rgba(120, 120, 120, 255);
+            padding: 19px 0 19px 20px;
+            margin-bottom: 30px;
+            &--width{
+                margin-bottom: 30px;
+                width: 650px;
+            }
+        }
+        &__area{
+            width: 665px;
+            margin-bottom: 30px;
+            padding: 19px 0 19px 20px;
+        }
+        &__button{
+            background: #10c9c3;
+            padding: 23px 35px;
+            text-transform: uppercase;
+            margin: auto;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 255);
+            font-family: 'Montserrat';
+            font-weight: 500;
+            margin-bottom: 100px;
+
+        }
+
+    }
+}
