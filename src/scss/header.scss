@@ -18,6 +18,11 @@
     background-position: center;
 }
 
+.introduction-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .navigation {
     justify-content: space-between;
     align-items: baseline;
@@ -42,7 +47,7 @@
 .navigation__link {
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
-    color: #191919;
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
@@ -64,15 +69,15 @@
 }
 
 .introduction {
-    @include block-options(170px auto 0 (1200px - 485px), 0 0 170px 0, 485px);
+    @include block-options(150px 0 0 auto, 0 0 190px 0, 485px);
+    display: block;
     &__title {
-        @include text-decor(38px, #191919, center, 0.95);
+        @include text-decor(38px, white, center, 0.95);
         text-transform: capitalize;
         font-family: 'Montserrat', sans-serif;
-
     }
     &__info {
-        @include text-decor(18px, #787878, left, 2.0);
+        @include text-decor(18px, white, left, 2.0);
         margin: 40px auto 0;
         font-family: 'NunitoSans', sans-serif;
     }
