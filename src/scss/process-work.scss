@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito+Sans:400,700');
+
+.work-process-part1 {
+    margin: 100px 0px;
+    display: block;
+    text-align: center;
+}
+
+.work-process-part1__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.work-process-part1__description {
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    font-size: 16px;
+}
+
+.work-process-part1__video {
+    width: 1200px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.work-process-part2 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-process-part2-card {
+    padding-bottom: 60px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.work-process-part2-card__title {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.work-process-part2-card__description {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #787878;
+}
+
+.work-process-part2-card__img {
+    width: 42px;
+    height: 42px;
+}
+
+.part2-bgc {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 0px 20px 0px;
+}

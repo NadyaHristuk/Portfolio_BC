@@ -20,13 +20,67 @@
   <link rel="stylesheet" href="css/styles.min.css">
 </head>
 <body>
-    //= ./html/header.html  
-//= ./html/aboutus.html
+    <div class="bg-wrapper">
+        <section class="navigation">
+            <h1 class="navigation__logo"><a href="#" class="link navigation__logo-link"><img src="../img/logo.png" alt="logo"></a></h1>
+            <nav class="navigation__nav">
+                <ul class="navigation-list list">
+                    <li class="navigation__item"><a href="#" class="link navigation__link ">home</a></li>
+                    <li class="navigation__item"><a href="#" class="link navigation__link">about</a></li>
+                    <li class="navigation__item"><a href="#" class="link navigation__link">work</a></li>
+                    <li class="navigation__item"><a href="#" class="link navigation__link">process</a></li>
+                    <li class="navigation__item"><a href="#" class="link navigation__link">services</a></li>
+                    <li class="navigation__item"><a href="#" class="link navigation__link">testimonials</a></li>
+                    <li class="navigation__item"><a href="#" class="link navigation__link">contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <div class="introduction-wrapper">
+            <section class="introduction">
+                <h2 class="introduction__title">We Design and Develop</h2>
+                <p class="introduction__info">We are a new design studio based in USA. We have over 
+                    20 years of combined experience, and know a thing or two 
+                    about designing websites and mobile apps.</p>
+                <button class="introduction__btn">contact us</button>
+            </section>
+        </div>
+    </div>    
+  <!-- //= ./html/header.html   -->
+  //= ./html/aboutus.html
+  //= ./html/process-work.html
   //= ./html/breakfast.html
-   //= ./html/formproject.html
+  <!-- //= ./html/formproject.html  -->
+  <section class="formproject">
+      <div class="quote" >
+          <p class="quote__text">“ Outstanding job and exceeded all expectations. It was a pleasure 
+              to work with them on a sizable first project and am looking 
+              forward to start the next one asap.”</p>
+          <p class="quote__auther">Michael Hopkins</p>
+          <img class="quote__img" src="../img/Composed-layer@1X (7).png" alt="img">
+      </div>
+      <ul class="gallery">
+          <li class="gallery__item"><img src="../img/1@1X.png" alt="img"></li>
+          <li class="gallery__item"><img src="../img/2@1X.png" alt="img"></li>
+          <li class="gallery__item"><img src="../img/3@1X.png" alt="img"></li>
+          <li class="gallery__item"><img src="../img/4@1X.png" alt="img"></li>
+          <li class="gallery__item"><img src="../img/5@1X.png" alt="img"></li>
+      </ul>
+      <div class="form">
+          <h2 class="form__title">Need a Project?</h2>
+          <p class="form__text">Let us know what you're looking for in an agency. We'll take a look and see 
+              if this could be the start of something beautiful.</p>
+          <form class="form-contact" action="#">
+              <input  class="form-contact__str"  type="text" placeholder="Your Name">
+              <input class="form-contact__str"  type="text" placeholder="Your Email">
+              <input  class="form-contact__str form-contact__str--width" type="text" placeholder="Your Title"> 
+              <textarea name="" class="form-contact__area" id="" cols="30" rows="10" placeholder="Your Comment" ></textarea>
+              <input type="submit" class="form-contact__button" value="send message">
+          </form>
+      </div>
+  </section>  
   //= ./html/contact.html
   //= ./html/amelia.html
   //= ./html/nick-section.html
-//= ./html/foot-foot.html
+  //= ./html/foot-foot.html
 </body>
 </html>
